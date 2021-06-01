@@ -43,13 +43,19 @@ body {
 }
 
 .bio-occupation,
-.bio-about {
+.bio-about,
+.about-me-item {
   font-size: 14px;
   line-height: 1.714;
 }
 
-.bio-about {
+.bio-about
+.about-me-item {
   color: #595959;
+}
+
+.about-me-item {
+list-style: none;
 }
 
 .projects-title {
