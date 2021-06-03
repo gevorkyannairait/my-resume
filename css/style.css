@@ -106,6 +106,24 @@ list-style: none;
   color: #ff6b08;
 }
 
+.sertificates {
+  padding-left: 25px;
+}
+
+.sertificates-item {
+  font-size: 14px;
+  line-height: 1.714;
+  list-style: none;
+}
+
+.sertificates-link {
+  color: #220fdc;
+}
+
+.sertificates-link:hover {
+  color: #ff6b08;
+}
+
 /* ========= left-side ========= */
 
 .left-side {
