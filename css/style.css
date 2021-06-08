@@ -15,7 +15,8 @@ body {
 .bio,
 .projects,
 .jobs,
-.education {
+.education
+.certificates {
   margin-bottom: 60px;
 }
 
@@ -76,7 +77,8 @@ list-style: none;
 }
 
 .jobs-title,
-.education-title {
+.education-title
+.certificates-title {
   color: #2a2a2a;
   font-size: 22px;
   line-height: 1.091;
@@ -106,21 +108,21 @@ list-style: none;
   color: #ff6b08;
 }
 
-.sertificates {
+.сertificates {
   padding-left: 25px;
 }
 
-.sertificates-item {
+.сertificates-item {
   font-size: 14px;
   line-height: 1.714;
   list-style: none;
 }
 
-.sertificates-link {
+.сertificates-link {
   color: #220fdc;
 }
 
-.sertificates-link:hover {
+.сertificates-link:hover {
   color: #ff6b08;
 }
 
