@@ -37,12 +37,16 @@ body {
   margin-bottom: 60px;
 }
 
+/* ========= right-side ========= */
+
 .right-side {
-  
+
   padding-left: 80px;
   padding-right: 200px;
   padding-top: 68px;
   padding-bottom: 68px;
+  background-color: #fff;
+
 }
 
 .bio-title {
@@ -150,7 +154,7 @@ list-style: none;
   
   background-color: #1e2939;
   color: #fff;
-  max-width: 626px;
+  width: 626px;
   
 }
 
