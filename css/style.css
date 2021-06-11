@@ -1,17 +1,17 @@
 @media (max-width: 1200px) {
-  .container{
+  .container {
     max-width: 970px;
   }
 }
 
 @media (max-width: 992px) {
-  .container{
+  .container {
     max-width: 750px;
   }
 }
 
 @media (max-width: 767px) {
-  .container{
+  .container {
     max-width: none;
   }
 }
@@ -32,21 +32,17 @@ body {
 .bio,
 .projects,
 .jobs,
-.education
-.certificates {
+.education .certificates {
   margin-bottom: 60px;
 }
 
 /* ========= right-side ========= */
 
 .right-side {
-
   padding-left: 80px;
   padding-right: 200px;
   padding-top: 68px;
   padding-bottom: 68px;
-  background-color: #fff;
-
 }
 
 .bio-title {
@@ -71,13 +67,12 @@ body {
   line-height: 1.714;
 }
 
-.bio-about
-.about-me-item {
+.bio-about .about-me-item {
   color: #595959;
 }
 
 .about-me-item {
-list-style: none;
+  list-style: none;
 }
 
 .projects-title {
@@ -98,8 +93,7 @@ list-style: none;
 }
 
 .jobs-title,
-.education-title
-.certificates-title {
+.education-title .certificates-title {
   color: #2a2a2a;
   font-size: 22px;
   line-height: 1.091;
@@ -149,12 +143,9 @@ list-style: none;
 
 /* ========= left-side ========= */
 
-
 .left-side {
-  
   background-color: #1e2939;
   color: #fff;
-  width: 626px;
   
 }
 
@@ -172,8 +163,6 @@ list-style: none;
   list-style: none;
   padding-left: 0;
   padding-right: 20px;
-
-  
 }
 
 .skills-item::before {
