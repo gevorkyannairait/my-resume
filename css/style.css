@@ -88,7 +88,8 @@ body {
   line-height: 24px;
 }
 
-.projects-link:hover {
+.projects-link:hover,
+.certificates-link:hover {
   color: #ff6b08;
 }
 
@@ -120,7 +121,7 @@ body {
 }
 
 .accent {
-  color: #ff6b08;
+  color: #ffae79;
 }
 
 .сertificates {
@@ -137,15 +138,12 @@ body {
   color: #220fdc;
 }
 
-.certificates-link:hover {
-  color: #ff6b08;
-}
-
 /* ========= left-side ========= */
 
 .left-side {
   background-color: #1e2939;
   color: #fff;
+  width: 370px;
   
 }
 
@@ -215,6 +213,10 @@ body {
 .contacts-link:hover {
   opacity: 1;
   text-decoration: underline;
+}
+
+.contacts-logo {
+  padding-right: 5px;
 }
 
 .widget-link {
