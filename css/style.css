@@ -53,6 +53,8 @@ body {
 
 .bio-occupation {
   margin-bottom: 27px;
+  font-size: 24px;
+  line-height: 1.714;
 }
 
 .bio-title,
@@ -60,7 +62,6 @@ body {
   color: #2a2a2a;
 }
 
-.bio-occupation,
 .bio-about,
 .about-me-item {
   font-size: 14px;
@@ -107,8 +108,15 @@ body {
   line-height: 1.5;
 }
 
+.courses-degree{
+  color: #2a2a2a;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 .jobs-time,
-.education-time {
+.education-time,
+.courses-time {
   color: #828282;
   font-size: 12px;
   line-height: 2;
@@ -152,7 +160,8 @@ body {
   line-height: 1.091;
 }
 
-.skills-item {
+.skills-item,
+.english-item {
   font-size: 14px;
   line-height: 1.714;
 }
@@ -163,12 +172,20 @@ body {
   padding-right: 20px;
 }
 
-.skills-item::before {
+.skills-item::before,
+.english-item::before {
   content: "\2022";
   margin-right: 8px;
   color: #ff6b08;
   font-size: 18px;
 }
+
+.english-list {
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 
 .photo,
 .contacts,
