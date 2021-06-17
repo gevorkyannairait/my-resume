@@ -133,7 +133,7 @@ body {
 }
 
 .сertificates {
-  padding-left: 25px;
+  padding-left: 10px;
 }
 
 .сertificates-item {
@@ -196,7 +196,8 @@ body {
 
 .contacts,
 .skills,
-.widget {
+.widget
+ {
   padding-left: 40px;
 }
 
