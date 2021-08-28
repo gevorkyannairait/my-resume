@@ -1,12 +1,21 @@
 @media (max-width: 1200px) {
+  container {
+        widht: 997px;
+  }
 
 }
 
 @media (max-width: 992px) {
+   container {
+        widht: 756px;
+  }
 
 }
 
 @media (max-width: 767px) {
+   container {
+        widht: 350px;
+  }
 
 }
 
