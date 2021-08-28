@@ -12,6 +12,13 @@
 
 @media (max-width: 767px) {
   .container {
+    max-width: 345px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .container {
     max-width: 100%;
   }
 }
